@@ -1,0 +1,48 @@
+.aboutme {
+
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  align-items: center; /* Alinea verticalmente en el centro */
+  justify-content: center; /* Centra los elementos en la página */
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; /* Puedes ajustar el máximo ancho */
+}
+
+.left-side {
+  flex: 1; /* Ocupa el 50% del espacio */
+}
+
+.left-side img {
+  width: 100%;
+  height: auto; /* Mantiene la relación de aspecto */
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+.right-side {
+  flex: 1; /* Ocupa el 50% del espacio */
+  color: black;
+  padding-left: 20px; /* Espacio entre imagen y texto */
+}
+
+.right-side h1 {
+  font-size: 50px;
+  font-weight: 50;
+}
+
+.right-side p {
+  font-size: 20px;
+  line-height: 2.5;
+  color: #000;
+  font-family: "Golos Text";
+  font-style: normal;
+  font-weight: 300;
+  text-align: justify;
+}
+
