@@ -34,7 +34,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/Omerta/",
+              "baseHref": "/",
               "budgets": [
                 {
                   "type": "initial",
